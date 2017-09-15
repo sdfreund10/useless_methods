@@ -1,12 +1,14 @@
 # UselessMethods
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/useless_methods`. To experiment with that code, run `bin/console` for an interactive prompt.
+### What is it?
 
-TODO: Delete this and the text above, and describe your gem
+Sometimes I like to screw around and extend existing ruby/rails classes in silly ways for my own amusement.
+This repo is where I store them for later. The methods are generally not particularly useful, but can be fun.
+Some of the methods may express my strong opinion and may be PG-13. 
 
 ## Installation
 
-Add this line to your application's Gemfile:
+If for some reason you wish to include this gem in your arpp, add this line to your application's Gemfile:
 
 ```ruby
 gem 'useless_methods'
@@ -22,7 +24,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Check out the source for what the available methods do. None of them are very complex.
+
+Here is a short list of the methods I've included.
+
+```
+ActiveRecord::Relation#to_sequel
+Date#score_ago
+Date#score_age
+Object#af?
+RandWord#generate (this one may actually be useful in testing)
+
+```
 
 ## Development
 
